@@ -1,0 +1,183 @@
+{"intents":[
+    {
+        "tag": "salutations",
+        "patterns": [ " Bonjour ", " Comment allez-vous ? ", " Salut ", " Quoi de neuf " ,"Salut ","Ça va",
+        "salutations" , "Hello" , "Hi" , "coucou"],
+        "responses": ["comment ca va ?", "Bonjour partenaire !", "Bonjour", "Bonjour !", 
+        "Comment allez-vous ?", " Nakamou ?",
+        "Que puis-je faire pour vous aider?","En quoi puis-je vous etre utile?"]
+    },   
+    {
+        "tag": "remerciements",
+        "patterns":  [ "Merci" , "C'est utile","c'est intéressant","tanck you","tanks" ],
+        "responses":  [ "Heureux de vous aider !" ,  "A tout moment !" , "Au plaisir" ]
+    },
+    {
+        "tag": "DefinitionCan",
+        "patterns":  [ "c'est quoi la can" , "Definition can",  "ça veut dire quoi can" ,  "qui a créer la can",
+            "c'est quoi la definition de la can" ,  "c'est quoi la signification de la can" , "que veut dire can" ,
+            "importance can" ,  "utilité can" ,  "origine can "],
+        "responses":  [ "Can qui signifie Coupe d'Afrique des nations \nelle fu creee en 1957 , \nelle est organisee par la confederation africaine\nde football(CAF)\ntous les deux ans!" ]
+    },  
+    {
+        "tag": "paysPlusTitre",
+        "patterns":  [ "la nation la plus titrée de la can" ,  "la nation qui a le plus gagné a la can" ,  "le meilleur pays a lacan",
+            "le pays qui a plus remporté la can" ,  "la nation qui a beaucoup de trophée a la can " ,  "la meilleur nation de la can" , "la meilleur equipe " ,
+            "le pays le plus fort de la can" ,  "la nation la plus forte a la can"],
+        "responses":  [ "L'Eypte arrive en tete\n7 fois championne d'Afrique!" ]
+    },
+    {
+        "tag": "Champions",
+        "patterns":  [ "tous les pays qui ont gagné à la can","tous les pays champions a la can","tous les pays sacrés champions a la can",
+            "l'ensemble des pays qui ont gagné la can ","l'ensemble des pays champions a la can",
+            "le classement de la Guinée a la Can","le classement du senegal a la Can",
+            "la place  de la Guinée a la Can","la place du senegal a la Can","champions",
+            "classifications des nations les plus fortes a la can","l'ensemble des pays sacrés champions de la can",
+            "Placement des nations les plus fortes dela can","Placement des nations les plus fortesa la can"],
+        "responses":  [ "Egypte (7coupes) , Cameroun (5coupes),Ghana (4coupes), Nigeria(3coupes) , Cote d'ivoir (2coupes), Algerie(2 coupes) ,RD Congo (2 coupes) , Zambie (1 coupe), Tunisie (1 coupe) , Soudan (1 coupe) , Senegal (1 coupe) , Ethipie (1 coupe) , Maroc (1 coupe) , Afrique du sud (1 coupe) , Congo (1 coupe)" ]
+    },
+    {
+        "tag": "auRevoir",
+        "patterns": [ "Bye"," au revoir ", " à plus tard ", " a la prochaine", "au revoir" ], 
+        "responses": [" A plus tard ", " A bientot !","Bye!" ]
+    },
+       {"tag": "monNom",
+        "patterns": ["comment tu t'appel", "quel est ton nom", "c'est quoi votre nom", "comment je peux t/'appeler "],
+        "responses": ["Mon nom est monsieur Can","Monsieur a votre service","Monsieur can en chante","Monsieur can"]
+       },
+       {"tag": "GagnanCan2021",
+        "patterns": ["Qui a remporté la can en 2021", "Quel est le pays qui a remporté la can en 2021",
+            "Qui a gagné la can en 2021", "Quel est le pays qui a gagné la can en 2021",
+            "Qui est le vainqueur de la can en 2021", "Quel est le pays vainqueur la can en 2021"],
+        "responses": ["Vingt-quatre nations participent a la \ncompetition. \nLe Senegal remporte la CAN,\npour la premiere fois de son histoire en \ns'imposant aux tirs au but devant l'Egypte"]
+       },
+       {"tag": "GagnanCan2019",
+        "patterns": ["Qui a remporté la can en 2019", "Quel est le pays qui a remporté la can en 2019",
+            "Qui a gagné la can en 2019", "Quel est le pays qui a gagné la can en 2019", "can 2019","qui est le vainqueur de la can 2019",
+            "Quel est le vainqueur de la can en 2019","le vainqueur de la can 2019",
+             "Quel est le pays vainqueur la can en 2019"],
+        "responses": ["Les Fennecs Algeriens emportent sur \nles Lions du Senegal \nVendredi 19 juillet au Caire \nla finale de la 32eme Coupe d'Afrique des nations \n(CAN)"]
+       },
+       {"tag": "GagnanCan2017",
+        "patterns": ["Qui a remporté la can en 2017", "Quel est le pays qui a remporté la can en 2017",
+            "Qui a gagné la can en 2017", "Quel est le pays qui a gagné la can en 2017","can 2017",
+            "le vainqueur de la can 2017",
+            "Qui est le vainqueur de la can en 2017", "Quel est le pays vainqueur la can en 2017"],
+        "responses": ["Les Lions Indomptables du Cameroun \nont remporte la 31e edition de la coupe d'Afrique des nations \nen s'imposant dimanche 4 fevrier sur \nles Pharaons d'Egypte par 2 a 1."]
+       },
+       {"tag": "GagnanCan2015",
+        "patterns": ["Qui a remporté la can en 2015", "Quel est le pays qui a remporté la can en 2015",
+            "Qui a gagné la can en 2015", "Quel est le pays qui a gagné la can en 2015","can 2015",
+            "Qui est le vainqueur de la can en 2015","le vainqueur de la can 2015", "Quel est le pays vainqueur la can en 2015"],
+        "responses": ["Le vainqueur de la finale en 2015 \nest la Cote d'Ivoire\nqui remporte la competition pour\nla deuxieme fois de son histoire\nen s'imposant contre le Ghana aux tirs au but."]        
+       },
+       {"tag": "GagnanCan2013",
+        "patterns": ["Qui a remporté la can en 2013", "Quel est le pays qui a remporté la can en 2013",
+            "Qui a gagné la can en 2013", "Quel est le pays qui a gagné la can en 2013","can 2013",
+            "Qui est le vainqueur de la can en 2013","le vainqueur de la can 2013" 
+        ,"Quel est le pays vainqueur la can en 2013"],
+        "responses": ["Le Nigeria a remporte la Coupe d'Afrique \ndes nations a trois reprises en \n2013, 1994 et 1980"] 
+       },
+       {"tag": "Ghana",
+        "patterns": ["le Ghana en can", "le Ghana à la can","le Ghana en coupe d'afrique des nations ","Ghana",
+            "l'histoire du Ghana en can","le Ghana", "l'histoire du Ghana en coupe d'afrique des nations ",
+            "lepalmarès Ghana en can", "le palmarès Ghana en coupe d'afrique des nations "],
+        "responses": ["Ghana est a sa 23em participation à la can\nsacre 4 fois champions d'Afrique 1963, 1965, 1978, 1982 \n5 fois finalistes \n 1 fois troisieme \n et 4fois quatrieme"]
+       },
+       {"tag": "Sénégal",
+        "patterns": ["senegal","le Sénégal en can","le Sénégal à la can", "le Sénégalen coupe d'afrique des nations ", 
+            "l'histoire Sénégal en can", "l'histoire Sénégal en coupe d'afrique des nations ","Sénégal",
+            "lepalmarès Sénégal en can", "le palmarès Sénégal en coupe d'afrique des nations "],
+        "responses": ["Le Senegal est à sa 16em participation à la can ,\nsacre une fois champions d'Afrique pour la premiere fois en 2022 \n2 fois finalistes \n jamais a la fois troisieme place \net 3fois quatrieme"]
+       },
+       {
+        "tag": "paysHotes",
+        "patterns": ["quels sont les pays ou s'est déja joué la can?","quels sont les different pays hotes ? ",
+        "Quels pays ont accueillis la can?","Quels sont les pays organisateurs de la can ?",
+        "Quel pays a déjà organisé la can","organisateurs",
+        "les pays hotes","quels sont les pays hotes"],
+        "responses": ["1) 1957 Soudan\n2) 1959 Republique arabe unie\n3) 1962 Ethiopie\n4) 1963 Ghana\n5) 1965 Tunisie\n6) 1968 Ethiopie\n7) 1968 Soudan\n8) 1972 Cameroun\n9) 1974 Egypte\n10) 1976 Ethiopie\n11) 1978 Ghana\n12) 1980 Nigeria\n 13) 1982 Libye\n14) 1984 Cote d'Ivoire\n15) 1986 Egypte\n16) 1988 Maroc\n17) 1968 Ethiopie\n18) 1992 Senegal\n19) 1994 Tunisie\n20) 1996 Afrique du Sud\n21) 1998 Burkina Faso\n22) 2000 Ghana et Nigeria\n23) 2002 Mali \n24) 2004 Tunisie\n25) 2006 Egypte\n26) 2008 Ghana\n27) 2010 Angola\n28) 2012 Gabon et Guinee equatoriale\n29) 2013 Afrique du Sud\n30) 2015 Guinee equatoriale\n31) 2017 Gabon\n32) 2019 Egypte\n33) 2022 Cameroun\n34) 2023 Cote d'Ivoir Edition future "]
+    },
+    {"tag": "Can2023",
+        "patterns": ["Dans quelle capitale de jouera la CAN 2023?","Quand et où aura lieu la prochaine can",
+            " Quand aura lieu la prochaine can","où aura lieu la prochaine can",
+            "Ou se jouera la CAN 2023?", "qui organise la CAN 2023?", 
+            "qui accueille la CAN 2023?, Dans quelle capitale de jouera la coupe d'afrique des nations 2023?", 
+            "Ou se jouera la coupe d'afrique des nations 2023?", "qui organise  la coupe d'afrique des nations 2023?", 
+            "qui accueille la la coupe d'afrique des nations 2023?"],
+        "responses": ["la Cote d'Ivoir va accueillir la 34em edition\nde la coupe d'Afrique , \nqui se deroulera en juin"]
+       },
+       {"tag": "meilleurButteur",
+        "patterns": ["Quel joueur a marquer le plus de but","qui a les meilleurs performance" ,
+        "qui est le meilleur buteur" , "quel est le meilleur joueur" , "meilleur buteur" ,"meilleur joueur"],
+        "responses": ["Oups ce n'et pas Sadjo Mane ,Il a 18 but a son actif en plus des statistiques remarquables, Samuel Eto'o est le meilleur joueur de toute l'histoire de la can",
+            "Ce n'est pas nSadjo Mane\nHelas ,18 but a son actif\net un tas de performance ,\nSamuel Eto'o est le meilleur joueurs \nde toute l'histoire de la can",
+            "Desole mais ce n'est pas\nSadjo Mane \n18 but a son actif , une dizaine de trophes,\nSamuel Eto'o demeure le meilleur joeur de toute l'histoire de la can"]
+       },
+       {
+        "tag": "fonction",
+        "patterns": ["A quoi sert tu", "coment tu fonctionne","de quoi peut on parler",
+        "qu'est que tu fais", "comment marche tu" , "comment ça fonctionne"],
+        "responses": ["je suis un chatbot sympa\navec qui tu peux discuter de la can \nposes des questons et je repondrai"]
+    },
+    {
+        "tag": "Moi",
+        "patterns": ["Qui est tu" , "Qui t'as créer", "quel est ton arigine","d'ou viens tu",
+            "A quoi sert tu", "coment tu fonctionne"],
+        "responses": ["Du NLP, du DeepLearning , \net une briallante DataScientiste en devenir \nme voici"]
+    },
+    {
+        "tag": "Blagues",
+        "patterns": ["Racontes moi une blague" , "blague", "drole"],
+        "responses": ["Pourquoi les footballeurs du PSG vont-ils souvent chez le coiffeur\n– Pour avoir etre surs d’avoir une coupe de champion. ?"]
+    },
+    {
+        "tag": "MeilleurJoueurCan2021",
+        "patterns":  ["Quel est le meilleur joueur de la CAN 2021", "Qui a été élu meilleur joueur de la CAN 2021"],
+        "responses": ["Sadio Mane"]  
+    },
+    {
+        "tag": "MeilleurGardienCan2021",
+        "patterns":  ["Quel est le meilleur gardien de la CAN 2021", "Qui a été élu meilleur gardien de la CAN 2021"],
+        "responses": ["Mohamed El Shenawy"]   
+    },
+    {
+        "tag": "MeilleurSelectionneurCan2021",
+        "patterns":  ["Quel est le meilleur sélectionneur de la CAN 2021","qui est le sélectionneur du senegal",
+            "qui est l'entraineur du senegal",
+            "Qui a été élu meilleur sélectionneur de la CAN 2021", "Qui a reçu le titre de meilleur sélectionneur de la CAN 2021"],
+        "responses": ["Aliou Cisse"]   
+    },
+     {
+        "tag": "MeilleurJoueurCan2019",
+        "patterns":  ["Quel est le meilleur joueur de la CAN 2019"],
+        "responses": ["Ismael Bennacer"]  
+    },
+    {
+        "tag": "MeilleurGardienCan2019",
+        "patterns":  ["Quel est le meilleur gardien de la CAN 2019", "Qui a été élu meilleur gardien de la CAN 2019"],
+        "responses": ["Rais M'Bolhi"]   
+    },
+    {
+        "tag": "MeilleurSelectionneurCan2019",
+        "patterns":  ["Quel est le meilleur sélectionneur de la CAN 2019", "Qui a été élu meilleur sélectionneur de la CAN 2019", "Qui a reçu le titre de meilleur sélectionneur de la CAN 2019"],
+        "responses": ["Nicolas Dupuis"]   
+    },
+      {
+        "tag": "MeilleurJoueurCan2017",
+        "patterns":  ["Quel est le meilleur joueur de la CAN 2017", "Qui a été élu meilleur joueur de la CAN 2017"],
+        "responses": ["Christian Bassogog"]  
+    },
+    {
+        "tag": "MeilleurGardienCan2017",
+        "patterns":  ["Quel est le meilleur gardien de la CAN 2017", "Qui a été élu meilleur gardien de la CAN 2017"],
+        "responses": ["Abdoulaye Diallo nationnalite Senegal"]   
+    },
+    {
+        "tag": "RetourDeBaton",
+        "patterns":"",
+        "responses":  [ "pouvez-vous repeter la question svp !" ,"desole je ne comprend pas !"],
+        "context": [""]  
+    }
+]
+}
